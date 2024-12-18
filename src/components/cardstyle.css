@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 .card{
-    width: 700px;
-    height: 500px;
+    width: 350px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -15,7 +15,7 @@
 
 .a60{
     width: 100%;
-    height: 70%;
+    height: 60%;
     color: black;
     object-fit: cover;
 }
@@ -24,7 +24,7 @@
     height: 100%;
 }
 .a40{
-    min-height: 30%;
+    min-height: 40%;
     min-width: 30%;
     padding: 0px 10px;
     color: black;
@@ -44,3 +44,28 @@
     justify-content: center;
 }
 
+.html{
+    color: green;
+}
+
+.css{
+    color: cyan;
+}
+
+.js{
+    color: yellow;
+}
+
+.php{
+    color: blue;
+}
+
+.default{
+    color: gray;
+}
+.containerTags{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    opacity: 70%;
+}
